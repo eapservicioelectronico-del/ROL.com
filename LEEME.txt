@@ -1,0 +1,14 @@
+PORTAL ROL SAN FRANCISCO — VERSIÓN FINAL
+========================================
+Contenido:
+  index.html        La página completa (archivo único: diseño, código y contenido).
+  GUIA-GITHUB.txt   Paso a paso para publicarla en GitHub Pages y crear el token.
+  .nojekyll         Archivo vacío para GitHub Pages (subilo también).
+
+Subir a GitHub: index.html y .nojekyll (el .nojekyll es un archivo oculto: activá "mostrar archivos ocultos").
+
+Modo dueño: Ctrl+Alt+A (celular: 5 toques sobre "COMUNIDAD").
+Clave de miembros de prueba: test1234 (cambiala desde el modo dueño).
+Los cambios se publican con el botón "Publicar en GitHub": quedan en el código del repo.
+
+Límite: la clave de miembros es solo visual. No pongas datos sensibles.

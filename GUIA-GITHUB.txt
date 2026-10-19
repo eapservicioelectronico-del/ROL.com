@@ -1,0 +1,28 @@
+PUBLICAR EN GITHUB PAGES (una sola vez)
+=======================================
+1. Crear cuenta en github.com y un repositorio PÚBLICO nuevo (ej: rol-sanfrancisco).
+2. En el repo: "Add file > Upload files" y subir  index-editable.html  renombrado como  index.html
+3. Settings > Pages > Source: "Deploy from a branch" > Branch: main / (root) > Save.
+   Tu sitio queda en  https://TU-USUARIO.github.io/rol-sanfrancisco/
+
+CREAR EL TOKEN (permiso solo para ese repo)
+===========================================
+1. GitHub > tu foto > Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token.
+2. Repository access: "Only select repositories" > elegí tu repo.
+3. Permissions > Repository permissions > Contents: "Read and write".
+4. Expiration: 90 días (o lo que prefieras). Generate token y copiarlo (empieza con github_pat_...).
+
+USAR EL MODO DUEÑO
+==================
+1. Abrí tu sitio. Ctrl+Alt+A (o 5 toques sobre "COMUNIDAD").
+2. Primera vez: creá tu clave de dueño (mínimo 10 caracteres).
+3. Editá lo que quieras.
+4. "Publicar en GitHub": la primera vez te pide usuario, repo, rama (main), archivo (index.html) y el token. Después solo tocás Publicar.
+5. En ~1 minuto el sitio muestra los cambios para todos.
+
+SEGURIDAD
+=========
+- Quien manda es el TOKEN, no la clave de dueño. Sin token nadie puede publicar.
+- No compartas el token. Si se filtra, borralo en GitHub y generá otro.
+- "Recordar token" lo guarda en ese navegador: usalo solo en tu equipo.
+- La clave de miembros es solo una barrera visual: el contenido viaja en el archivo y es público en un repo público. No pongas datos sensibles.
