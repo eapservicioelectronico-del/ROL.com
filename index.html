@@ -310,6 +310,8 @@
             barraClon.replaceChildren();
             barraClon.setAttribute('hidden', '');
             clon.querySelectorAll('dialog').forEach(function (d) { d.remove(); });
+            clon.querySelectorAll('iframe, script[src]').forEach(function (x) { x.remove(); });
+            clon.querySelector('#btnSesion').textContent = 'Acceso miembros';
             clon.querySelector('body').removeAttribute('class');
             clon.querySelector('#datos').textContent = JSON.stringify(pub).replace(/</g, '\\u003c');
             return '<!DOCTYPE html>\n' + clon.outerHTML;
