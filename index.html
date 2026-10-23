@@ -170,6 +170,10 @@
         dialog.dlg .check { display: flex; align-items: center; gap: 8px; }
         dialog.dlg .check input { width: auto; margin: 0; }
 
+        dialog.dlg.ancho { width: min(94vw, 620px); }
+        .fila-miembro { padding: 10px 0; border-bottom: 1px solid #e2e8f0; }
+        .fila-miembro .botones { margin-top: 8px; }
+
         :focus-visible { outline: 3px solid #ffbf47; outline-offset: 2px; }
 
         /* ==========================================================================
@@ -206,9 +210,9 @@
 
     <!-- ======================================================================
          CONTENIDO DEL SITIO (datos). Se edita desde el modo dueño; no hace
-         falta tocarlo a mano. La clave de miembros de prueba es: test1234
+         falta tocarlo a mano.
          ====================================================================== -->
-    <script type="application/json" id="datos">{"version":1,"config":{"miembros":{"sal":"0b06b91ac304b5f9fb9156a3584adb69","hash":"5e9a33b46d7994ab4df1f024b822085448f8963486d2d1e10504f29f5c3b5fb3"},"github":{"usuario":"eapservicioelectronico-del","repo":"ROL.com","rama":"main","ruta":"index.html"}},"secciones":[{"id":"historia","titulo":"Historia","privada":false,"bloques":[{"titulo":"","texto":"Rol San Francisco nació con un propósito simple: ofrecer a la gente de San Francisco un espacio de entretenimiento, a modo de ludoteca, con los juegos de rol, como Calabozos y Dragones, como protagonistas.\n\nJugar rol es diversión, pero también aprendizaje. Sin sentirlo, se practica:\n\nPensamiento crítico y toma de decisiones\nTrabajo en equipo y consecuencias de las acciones\nCálculo básico y literatura (historias, apuntes, personajes)\nMemoria y agilidad mental\nMotivación por objetivos y crecimiento, como persona y como personaje\n\nLa diversión hace que se practiquen con gusto cosas que en otros contextos se evitan.\n\nEl proyecto se presentó a la municipalidad para conseguir espacios públicos y mantener la entrada libre y gratuita, para que cualquiera pueda venir, probar y decidir si quiere seguir.\n\nNuestro recorrido\n\nHace 3 años que el grupo está en funcionamiento en San Francisco.\n\nCentro Cultural: el inicio del proyecto.\nTecnoteca: la segunda etapa.\nCUEN: el último espacio habilitado.\nEtapa sin espacio físico: la actividad siguió de forma virtual o con cada director de mesa y su grupo fijo. Esto mantuvo vivo el proyecto, pero sin posibilidad de sumar nuevos integrantes.\n2026: un reinicio completo. Tras un período largo sin lugar, este año se insistió y se puso todo el esfuerzo e iniciativa para conseguir nuevamente un espacio público. El objetivo principal fue el Centro Cultural San Francisco, el origen de la actividad, para reactivarla y que la gente de San Francisco y la zona pueda asistir. No fue solo volver a un lugar: fue un reinicio total de la planificación y la organización.\n\nGracias a la Dirección de Cultura, a la Municipalidad de San Francisco, a la organización del Centro Cultural y a todas las autoridades del complejo por esta oportunidad.\n\nUna nueva etapa\n\nCon el nuevo grupo, dirigimos la actividad con otra mirada y otro punto de vista, para que no tenga freno y ofrezca el mejor entretenimiento. Buscamos fomentar la creatividad, el pensamiento crítico y la convivencia, valores que se están perdiendo por distintos factores o por el mal uso de ciertas herramientas.\n\nLa actividad también se renovó: antes estaba orientada a adolescentes; ahora están invitados niños desde 10 años, adolescentes, jóvenes adultos, adultos y familias.\n\nEs un espacio para desconectarse de las rutinas y de los celulares, y volver al contacto cara a cara.\n\nEventos y comunidad\n\nParticipamos en:\n\nCórdoba Rolea (Biblioteca Córdoba)\nFriki Fest San Francisco\nSugoi San Francisco\nEventos en Santa Fe\n\nTenemos conexión con otras comunidades de juegos de mesa de Argentina y del exterior, un mundo mucho más amplio de lo que se piensa. Eso nos permite ofrecer nuevos materiales, nuevas expectativas e inmersiones en historias de universos sin fin, ya existentes o creados por los propios directores de mesa.\n\nHoy funcionan 2 a 3 mesas y esperamos sumar más. Poco a poco, con paciencia, todo se va armando, pero sin frenarse: hay que moverse.\n\n2026 trae más actividades, prácticas y participación en otros eventos. Esperamos seguir creciendo en 2027, junto al Centro Cultural San Francisco y la ciudad, para fomentar la diversión dentro del tablero y fuera de las pantallas.","tipo":"texto"}]},{"id":"noticias","titulo":"Noticias y Novedades","privada":false,"bloques":[{"texto":"Instagram","url":"https://www.instagram.com/rolsanfrancisco/","tipo":"enlace"},{"texto":"Entrevista 2026","url":"https://www.radiocanal.com.ar/noticia/preaventuras-de-primavera-una-propuesta-de-rol-llega-a-san-francisco-185659","tipo":"enlace"},{"src":"https://www.radiocanal.com.ar/imagenes/noticias_web/sgf_185659-119904.jpg","pie":"","tipo":"imagen"}]},{"id":"manuales","titulo":"Manuales y Documentación","privada":true,"bloques":[{"tipo":"texto","titulo":"","texto":"Espacio de consulta exclusivo para miembros registrados."},{"tipo":"texto","titulo":"1. Manuales de Operación","texto":""},{"tipo":"enlace","texto":"📂 Guía de Inicio Rápido y Dinámicas de Integración","url":""},{"tipo":"enlace","texto":"📂 Procedimientos de Organización y Uso del Espacio Común","url":""},{"tipo":"texto","titulo":"2. Documentación Técnica del Sistema","texto":""},{"tipo":"enlace","texto":"📄 Hojas de Datos (Datasheets) y Esquemas de Conexión","url":""},{"tipo":"enlace","texto":"📄 Diagramas de Procesos e Informes Técnicos de Respaldo","url":""}]},{"id":"aplicaciones","titulo":"Aplicaciones","privada":true,"bloques":[{"tipo":"texto","titulo":"","texto":"Utilitarios digitales interactivos desarrollados a medida para la optimización de nuestras actividades en tiempo real."},{"tipo":"aviso","titulo":"Entorno operativo habilitado","texto":"Ya podés interactuar con las herramientas de la comunidad.","color":"verde"}]}]}</script>
+    <script type="application/json" id="datos">{"version":1,"config":{"github":{"usuario":"eapservicioelectronico-del","repo":"ROL.com","rama":"main","ruta":"index.html"}},"secciones":[{"id":"historia","titulo":"Historia","privada":false,"bloques":[{"titulo":"","texto":"Rol San Francisco nació con un propósito simple: ofrecer a la gente de San Francisco un espacio de entretenimiento, a modo de ludoteca, con los juegos de rol, como Calabozos y Dragones, como protagonistas.\n\nJugar rol es diversión, pero también aprendizaje. Sin sentirlo, se practica:\n\nPensamiento crítico y toma de decisiones\nTrabajo en equipo y consecuencias de las acciones\nCálculo básico y literatura (historias, apuntes, personajes)\nMemoria y agilidad mental\nMotivación por objetivos y crecimiento, como persona y como personaje\n\nLa diversión hace que se practiquen con gusto cosas que en otros contextos se evitan.\n\nEl proyecto se presentó a la municipalidad para conseguir espacios públicos y mantener la entrada libre y gratuita, para que cualquiera pueda venir, probar y decidir si quiere seguir.\n\nNuestro recorrido\n\nHace 3 años que el grupo está en funcionamiento en San Francisco.\n\nCentro Cultural: el inicio del proyecto.\nTecnoteca: la segunda etapa.\nCUEN: el último espacio habilitado.\nEtapa sin espacio físico: la actividad siguió de forma virtual o con cada director de mesa y su grupo fijo. Esto mantuvo vivo el proyecto, pero sin posibilidad de sumar nuevos integrantes.\n2026: un reinicio completo. Tras un período largo sin lugar, este año se insistió y se puso todo el esfuerzo e iniciativa para conseguir nuevamente un espacio público. El objetivo principal fue el Centro Cultural San Francisco, el origen de la actividad, para reactivarla y que la gente de San Francisco y la zona pueda asistir. No fue solo volver a un lugar: fue un reinicio total de la planificación y la organización.\n\nGracias a la Dirección de Cultura, a la Municipalidad de San Francisco, a la organización del Centro Cultural y a todas las autoridades del complejo por esta oportunidad.\n\nUna nueva etapa\n\nCon el nuevo grupo, dirigimos la actividad con otra mirada y otro punto de vista, para que no tenga freno y ofrezca el mejor entretenimiento. Buscamos fomentar la creatividad, el pensamiento crítico y la convivencia, valores que se están perdiendo por distintos factores o por el mal uso de ciertas herramientas.\n\nLa actividad también se renovó: antes estaba orientada a adolescentes; ahora están invitados niños desde 10 años, adolescentes, jóvenes adultos, adultos y familias.\n\nEs un espacio para desconectarse de las rutinas y de los celulares, y volver al contacto cara a cara.\n\nEventos y comunidad\n\nParticipamos en:\n\nCórdoba Rolea (Biblioteca Córdoba)\nFriki Fest San Francisco\nSugoi San Francisco\nEventos en Santa Fe\n\nTenemos conexión con otras comunidades de juegos de mesa de Argentina y del exterior, un mundo mucho más amplio de lo que se piensa. Eso nos permite ofrecer nuevos materiales, nuevas expectativas e inmersiones en historias de universos sin fin, ya existentes o creados por los propios directores de mesa.\n\nHoy funcionan 2 a 3 mesas y esperamos sumar más. Poco a poco, con paciencia, todo se va armando, pero sin frenarse: hay que moverse.\n\n2026 trae más actividades, prácticas y participación en otros eventos. Esperamos seguir creciendo en 2027, junto al Centro Cultural San Francisco y la ciudad, para fomentar la diversión dentro del tablero y fuera de las pantallas.","tipo":"texto"}]},{"id":"noticias","titulo":"Noticias y Novedades","privada":false,"bloques":[{"texto":"Instagram","url":"https://www.instagram.com/rolsanfrancisco/","tipo":"enlace"},{"texto":"Entrevista 2026","url":"https://www.radiocanal.com.ar/noticia/preaventuras-de-primavera-una-propuesta-de-rol-llega-a-san-francisco-185659","tipo":"enlace"},{"src":"https://www.radiocanal.com.ar/imagenes/noticias_web/sgf_185659-119904.jpg","pie":"","tipo":"imagen"}]},{"id":"manuales","titulo":"Manuales y Documentación","privada":true,"bloques":[]},{"id":"aplicaciones","titulo":"Aplicaciones","privada":true,"bloques":[]}]}</script>
 
     <script>
     (function () {
@@ -275,7 +279,7 @@
         // =====================================================================
         // ALMACÉN: contenido publicado (en este mismo archivo) y borrador local
         // =====================================================================
-        var LS_BORRADOR = 'rsf1_borrador', LS_DUENO = 'rsf1_clave_dueno', LS_CONTRASTE = 'rsf1_contraste';
+        var LS_BORRADOR = 'rsf1_borrador', LS_DUENO = 'rsf1_clave_dueno', LS_SESION = 'rsf1_sesion', LS_CONTRASTE = 'rsf1_contraste';
         var leerLS = function (k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } };
         var escribirLS = function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } };
 
@@ -296,6 +300,9 @@
 
         // Genera un index.html nuevo con el contenido actual ya incluido
         function generarHTML(cont) {
+            var pub = clonar(cont);
+            pub.config = { github: cont.config && cont.config.github };
+            pub.secciones.forEach(function (x) { if (x.privada) x.bloques = []; });
             var clon = document.documentElement.cloneNode(true);
             clon.querySelector('#content-target').replaceChildren();
             clon.querySelector('#nav-tabs').replaceChildren();
@@ -304,7 +311,7 @@
             barraClon.setAttribute('hidden', '');
             clon.querySelectorAll('dialog').forEach(function (d) { d.remove(); });
             clon.querySelector('body').removeAttribute('class');
-            clon.querySelector('#datos').textContent = JSON.stringify(cont).replace(/</g, '\\u003c');
+            clon.querySelector('#datos').textContent = JSON.stringify(pub).replace(/</g, '\\u003c');
             return '<!DOCTYPE html>\n' + clon.outerHTML;
         }
 
@@ -555,7 +562,7 @@
         try { publicado = validarContenido(JSON.parse(document.getElementById('datos').textContent)); }
         catch (e) { destino.textContent = 'Error: el contenido del sitio está dañado.'; return; }
 
-        var estado = { cont: publicado, dueno: false, miembro: false, pidiendoClave: false, seccionId: publicado.secciones[0].id, aviso: '', fallos: 0 };
+        var estado = { cont: publicado, dueno: false, miembro: false, pidiendoClave: false, seccionId: publicado.secciones[0].id, aviso: '', fallos: 0, usuario: null, acceso: '', pendientes: 0 };
 
         function seccionActual() {
             return estado.cont.secciones.find(function (s) { return s.id === estado.seccionId; }) || estado.cont.secciones[0];
@@ -586,7 +593,7 @@
                     onclick: function () { estado.seccionId = s.id; estado.pidiendoClave = false; dibujar(); }
                 });
             }));
-            btnSesion.textContent = estado.miembro ? 'Cerrar sesión' : 'Acceso miembros';
+            btnSesion.textContent = estado.usuario ? 'Cerrar sesión' : 'Acceso miembros';
         }
 
         function dibujarBarra() {
@@ -599,38 +606,39 @@
             });
             barra.replaceChildren(
                 el('span', { class: 'estado', text: 'MODO DUEÑO — ' + (estado.aviso || 'los cambios se guardan como borrador en este navegador') }),
-                el('button', { class: 'primario', type: 'button', text: 'Publicar en GitHub', onclick: publicarGitHub }),
+                el('button', { class: 'primario', type: 'button', text: 'Publicar en GitHub', onclick: publicarTodo }),
+                el('button', { type: 'button', text: 'Guardar privado (nube)', onclick: guardarPrivado }),
+                el('button', { type: 'button', text: 'Miembros' + (estado.pendientes ? ' (' + estado.pendientes + ' nuevos)' : ''), onclick: abrirMiembros }),
                 el('button', { type: 'button', text: 'Conexión GitHub', onclick: configurarGitHub }),
-                el('button', { type: 'button', text: 'Copia de seguridad (.html)', onclick: function () { guardarComoHTML(estado.cont); } }),
+                el('button', { type: 'button', text: 'Copia (.html, sin privado)', onclick: function () { guardarComoHTML(estado.cont); } }),
                 el('button', { type: 'button', text: 'Respaldo .json', onclick: function () { descargar('contenido.json', 'application/json', JSON.stringify(estado.cont, null, 2)); } }),
                 el('button', { type: 'button', text: 'Importar .json', onclick: function () { entrada.click(); } }),
-                el('button', { type: 'button', text: 'Clave de miembros', onclick: cambiarClaveMiembros }),
                 el('button', { type: 'button', text: 'Descartar borrador', onclick: function () {
                     if (!confirm('¿Volver al contenido guardado en el archivo y perder el borrador?')) return;
                     try { localStorage.removeItem(LS_BORRADOR); } catch (e) {}
                     estado.cont = clonar(publicado); estado.seccionId = estado.cont.secciones[0].id; estado.aviso = ''; dibujar();
                 } }),
-                el('button', { type: 'button', text: 'Salir', onclick: salirDueno }),
+                el('button', { type: 'button', text: 'Salir', onclick: pedirCerrarSesion }),
                 entrada
             );
         }
 
-        function vistaClaveMiembros(titulo) {
+        function vistaAcceso(titulo) {
             var error = el('div', { class: 'aviso-error', role: 'alert' });
-            var campo = el('input', { type: 'password', required: '', autocomplete: 'off' });
-            var form = el('form', { onsubmit: async function (e) {
-                e.preventDefault();
-                if (await verificar(campo.value, estado.cont.config.miembros)) { estado.miembro = true; estado.pidiendoClave = false; dibujar(); }
-                else { error.textContent = 'Clave incorrecta.'; campo.value = ''; }
-            } },
-                el('div', { class: 'form-group' }, el('label', { text: 'Clave de miembros' }), campo),
-                el('button', { class: 'btn-submit', type: 'submit', text: 'Entrar' }), error);
-            destino.replaceChildren(el('div', { class: 'auth-container' },
-                el('h1', { text: titulo }),
-                el('p', { text: 'Sección solo para miembros. Ingresá la clave que te dio la coordinación.' }),
-                form,
-                el('p', { class: 'nota-chica', text: 'MODO PRUEBA: esta barrera es solo visual; no protege información sensible.' })));
-            campo.focus();
+            var u = estado.usuario, nodos = [el('h1', { text: titulo })];
+            if (!u) {
+                asegurarEscucha();
+                nodos.push(el('p', { text: 'Sección solo para miembros. Entrá con tu cuenta de Google: la coordinación revisa cada solicitud antes de dar acceso.' }),
+                    el('button', { class: 'btn-submit', type: 'button', text: 'Entrar con Google', onclick: function () { entrarConGoogle(error); } }), error);
+            } else {
+                var nombre = u.displayName || u.email;
+                if (estado.acceso === 'cargando') nodos.push(el('p', { text: 'Verificando tu cuenta…' }));
+                else if (estado.acceso === 'pendiente') nodos.push(el('p', { text: 'Hola ' + nombre + '. Tu solicitud está pendiente: la coordinación te va a dar acceso. Volvé a entrar más tarde.' }));
+                else if (estado.acceso === 'rechazado') nodos.push(el('p', { text: 'Tu cuenta (' + u.email + ') no tiene acceso a esta sección. Consultá con la coordinación.' }));
+                else nodos.push(el('p', { text: 'No se pudo verificar tu cuenta: ' + (estado.errorAcceso || 'error desconocido') }));
+                nodos.push(el('button', { class: 'btn-submit', type: 'button', text: 'Cerrar sesión', onclick: pedirCerrarSesion }));
+            }
+            destino.replaceChildren(el('div', { class: 'auth-container' }, nodos));
         }
 
         function mover(arr, i, d) {
@@ -695,8 +703,8 @@
             dibujarTabs();
             dibujarBarra();
 
-            if (estado.pidiendoClave && !estado.miembro) return vistaClaveMiembros('Acceso de miembros');
-            if (s.privada && !estado.miembro && !estado.dueno) return vistaClaveMiembros(s.titulo);
+            if (estado.pidiendoClave && !estado.miembro) return vistaAcceso('Acceso de miembros');
+            if (s.privada && !estado.miembro && !estado.dueno) return vistaAcceso(s.titulo);
 
             var nodos = [el('h1', { text: s.titulo })];
             s.bloques.forEach(function (b, i) {
@@ -709,54 +717,144 @@
             destino.replaceChildren.apply(destino, nodos);
         }
 
-        // ---- Modo dueño ----
-        async function entrarDueno() {
-            if (estado.dueno) return;
-            if (!window.crypto || !crypto.subtle) { alert('Este navegador no permite el modo dueño (falta WebCrypto).'); return; }
-            var guardada = leerLS(LS_DUENO);
-            if (!guardada) {
-                var r = await formulario('Crear clave de dueño (primera vez)', [
-                    { name: 'c1', label: 'Clave nueva (mínimo 10 caracteres)', tipo: 'password' },
-                    { name: 'c2', label: 'Repetir clave', tipo: 'password' }
-                ], {}, function (o) { return o.c1.length < 10 ? 'Mínimo 10 caracteres.' : o.c1 !== o.c2 ? 'Las claves no coinciden.' : ''; });
-                if (!r) return;
-                escribirLS(LS_DUENO, await crearClave(r.c1));
-            } else {
-                if (estado.fallos) await new Promise(function (res) { setTimeout(res, Math.min(estado.fallos * 1500, 15000)); });
-                var r2 = await formulario('Modo dueño', [{ name: 'c', label: 'Clave de dueño', tipo: 'password' }]);
-                if (!r2) return;
-                if (!(await verificar(r2.c, guardada))) { estado.fallos++; alert('Clave incorrecta.'); return; }
+        // ---- Google (Firebase): miembros, dueño y contenido privado ----
+        var FIREBASE_CONFIG = { apiKey: 'AIzaSyCAmfseqFwoNWTxk70v7tC9_ePgxyxvATM', authDomain: 'rol-san-francisco-9e4f1.firebaseapp.com', projectId: 'rol-san-francisco-9e4f1', messagingSenderId: '470134446434', appId: '1:470134446434:web:65fcd2c3486ac42779b43b' };
+        var EMAIL_DUENO = 'e.a.p.servicio.electronico@gmail.com';
+        var FB = null, escuchando = false;
+
+        async function cargarFirebase() {
+            if (FB) return FB;
+            var base = 'https://www.gstatic.com/firebasejs/10.14.1/';
+            var m = await Promise.all([import(base + 'firebase-app.js'), import(base + 'firebase-auth.js'), import(base + 'firebase-firestore.js')]);
+            var app = m[0].initializeApp(FIREBASE_CONFIG);
+            FB = { A: m[1], F: m[2], auth: m[1].getAuth(app), db: m[2].getFirestore(app) };
+            return FB;
+        }
+        async function asegurarEscucha() {
+            if (escuchando) return;
+            escuchando = true;
+            try { var fb = await cargarFirebase(); fb.A.onAuthStateChanged(fb.auth, manejarUsuario); }
+            catch (e) { escuchando = false; }
+        }
+        function mensajeFirebase(e) {
+            var c = (e && e.code) || '';
+            if (c === 'auth/popup-closed-by-user' || c === 'auth/cancelled-popup-request') return 'Cerraste la ventana de Google antes de terminar.';
+            if (c === 'auth/popup-blocked') return 'El navegador bloqueó la ventana de Google. Permití las ventanas emergentes e intentá de nuevo.';
+            if (c === 'auth/unauthorized-domain') return 'Esta dirección no está autorizada en Firebase.';
+            if (c === 'permission-denied') return 'sin permiso (revisá las reglas de Firestore).';
+            return (e && e.message) || 'error desconocido';
+        }
+        function entrarConGoogle(salidaError) {
+            if (!FB) { if (salidaError) salidaError.textContent = 'Se está cargando el acceso con Google. Tocá de nuevo en unos segundos.'; asegurarEscucha(); return; }
+            FB.A.signInWithPopup(FB.auth, new FB.A.GoogleAuthProvider()).catch(function (e) { if (salidaError) salidaError.textContent = mensajeFirebase(e); });
+        }
+        async function cargarPrivado() {
+            var snap = await FB.F.getDocs(FB.F.collection(FB.db, 'secciones_privadas'));
+            var n = 0;
+            snap.forEach(function (d) {
+                n++;
+                publicado.secciones.forEach(function (x) { if (x.privada && x.id === d.id) x.bloques = d.data().bloques || []; });
+            });
+            return n;
+        }
+        async function manejarUsuario(u) {
+            if (!u) { estado.usuario = null; estado.acceso = ''; try { localStorage.removeItem(LS_SESION); } catch (e) {} dibujar(); return; }
+            estado.usuario = u; escribirLS(LS_SESION, true);
+            estado.acceso = 'cargando'; dibujar();
+            try {
+                if (u.email === EMAIL_DUENO && u.emailVerified) {
+                    var n = await cargarPrivado();
+                    estado.dueno = true; estado.miembro = true; estado.acceso = 'aprobado';
+                    var borrador = leerLS(LS_BORRADOR);
+                    try { estado.cont = borrador ? validarContenido(borrador) : clonar(publicado); } catch (e) { estado.cont = clonar(publicado); }
+                    estado.aviso = n ? '' : 'Todavía no hay contenido privado en la nube. Importá contenido-inicial.json y tocá "Publicar en GitHub".';
+                    try {
+                        var sm = await FB.F.getDocs(FB.F.collection(FB.db, 'miembros')), p = 0;
+                        sm.forEach(function (d) { if (d.data().estado === 'pendiente') p++; });
+                        estado.pendientes = p;
+                    } catch (e) {}
+                } else {
+                    var ref = FB.F.doc(FB.db, 'miembros', u.uid), snap = await FB.F.getDoc(ref);
+                    if (!snap.exists()) {
+                        await FB.F.setDoc(ref, { email: u.email, nombre: u.displayName || '', foto: u.photoURL || '', estado: 'pendiente', creado: FB.F.serverTimestamp() });
+                        estado.acceso = 'pendiente';
+                    } else estado.acceso = snap.data().estado || 'pendiente';
+                    if (estado.acceso === 'aprobado') { await cargarPrivado(); estado.miembro = true; }
+                }
+            } catch (e) { estado.acceso = 'error'; estado.errorAcceso = mensajeFirebase(e); }
+            if (estado.miembro) estado.pidiendoClave = false;
+            dibujar();
+        }
+        async function cerrarSesion() {
+            estado.sinGuardar = false;
+            try { var fb = await cargarFirebase(); await fb.A.signOut(fb.auth); } catch (e) {}
+            try { localStorage.removeItem(LS_SESION); } catch (e) {}
+            location.reload();
+        }
+        function pedirCerrarSesion() {
+            if (estado.dueno && estado.sinGuardar && !confirm('Tenés cambios sin publicar. Al salir, la página vuelve a mostrar lo último publicado. ¿Salir igual? (Cancelá y tocá "Publicar en GitHub" primero.)')) return;
+            cerrarSesion();
+        }
+        // El contenido de las secciones privadas vive en Firestore (una ficha por sección), nunca en el HTML
+        async function guardarPrivado() {
+            if (!FB || !estado.dueno) return false;
+            estado.aviso = 'Guardando contenido privado…'; dibujarBarra();
+            try {
+                var existentes = await FB.F.getDocs(FB.F.collection(FB.db, 'secciones_privadas'));
+                var lote = FB.F.writeBatch(FB.db), ids = {};
+                estado.cont.secciones.forEach(function (x) {
+                    if (!x.privada) return;
+                    ids[x.id] = 1;
+                    var datos = clonar({ titulo: x.titulo, bloques: x.bloques });
+                    if (JSON.stringify(datos).length > 900000) throw new Error('La sección "' + x.titulo + '" pesa demasiado (más de 900 KB). Usá fotos más livianas.');
+                    lote.set(FB.F.doc(FB.db, 'secciones_privadas', x.id), datos);
+                });
+                existentes.forEach(function (d) { if (!ids[d.id]) lote.delete(d.ref); });
+                await lote.commit();
+                estado.aviso = '✓ Contenido privado guardado en la nube (' + new Date().toLocaleTimeString() + ').';
+                dibujarBarra(); return true;
+            } catch (e) { estado.aviso = '⚠ No se pudo guardar lo privado: ' + mensajeFirebase(e); dibujarBarra(); return false; }
+        }
+        async function publicarTodo() { if (await guardarPrivado()) await publicarGitHub(); }
+
+        function abrirMiembros() {
+            if (!FB || !estado.dueno) return;
+            var dlg = el('dialog', { class: 'dlg ancho' }), lista = el('div', {}), error = el('div', { class: 'aviso-error', role: 'alert' });
+            async function cambiar(id, nuevo) {
+                try { if (nuevo) await FB.F.updateDoc(FB.F.doc(FB.db, 'miembros', id), { estado: nuevo }); else await FB.F.deleteDoc(FB.F.doc(FB.db, 'miembros', id)); }
+                catch (e) { error.textContent = mensajeFirebase(e); return; }
+                refrescar();
             }
-            estado.fallos = 0;
-            estado.dueno = true;
-            var borrador = leerLS(LS_BORRADOR);
-            try { estado.cont = borrador ? validarContenido(borrador) : clonar(publicado); } catch (e) { estado.cont = clonar(publicado); }
-            estado.aviso = '';
-            dibujar();
-        }
-
-        function salirDueno() {
-            if (estado.sinGuardar && !confirm('Tenés cambios sin publicar. Al salir, la página vuelve a mostrar lo último publicado. ¿Salir igual? (Cancelá y tocá "Publicar en GitHub" primero.)')) return;
-            estado.dueno = false;
-            estado.miembro = false;
-            estado.cont = publicado;
-            dibujar();
-        }
-
-        async function cambiarClaveMiembros() {
-            var r = await formulario('Clave de miembros', [
-                { name: 'c1', label: 'Clave nueva (mínimo 6 caracteres)', tipo: 'password' }
-            ], {}, function (o) { return o.c1.length < 6 ? 'Mínimo 6 caracteres.' : ''; });
-            if (!r) return;
-            estado.cont.config.miembros = await crearClave(r.c1);
-            cambio();
+            function fila(f) {
+                var b = [];
+                if (f.d.estado !== 'aprobado') b.push(el('button', { type: 'button', class: 'ok', text: 'Aprobar', onclick: function () { cambiar(f.id, 'aprobado'); } }));
+                if (f.d.estado === 'pendiente') b.push(el('button', { type: 'button', text: 'Rechazar', onclick: function () { cambiar(f.id, 'rechazado'); } }));
+                if (f.d.estado === 'aprobado') b.push(el('button', { type: 'button', text: 'Quitar acceso', onclick: function () { cambiar(f.id, 'rechazado'); } }));
+                b.push(el('button', { type: 'button', text: 'Borrar', onclick: function () { if (confirm('¿Borrar a ' + f.d.email + '? Podrá volver a pedir acceso.')) cambiar(f.id, null); } }));
+                return el('div', { class: 'fila-miembro' }, el('strong', { text: f.d.nombre || f.d.email }), el('div', { text: f.d.email + ' · ' + f.d.estado }), el('div', { class: 'botones' }, b));
+            }
+            async function refrescar() {
+                error.textContent = '';
+                try {
+                    var snap = await FB.F.getDocs(FB.F.collection(FB.db, 'miembros')), filas = [];
+                    snap.forEach(function (d) { filas.push({ id: d.id, d: d.data() }); });
+                    var orden = { pendiente: 0, aprobado: 1, rechazado: 2 };
+                    filas.sort(function (a, b) { return (orden[a.d.estado] || 0) - (orden[b.d.estado] || 0) || String(a.d.email).localeCompare(String(b.d.email)); });
+                    estado.pendientes = filas.filter(function (f) { return f.d.estado === 'pendiente'; }).length; dibujarBarra();
+                    lista.replaceChildren.apply(lista, filas.length ? filas.map(fila) : [el('p', { text: 'Todavía no se registró nadie.' })]);
+                } catch (e) { error.textContent = mensajeFirebase(e); }
+            }
+            dlg.append(el('h3', { text: 'Miembros' }), lista, error, el('div', { class: 'botones' },
+                el('button', { type: 'button', text: 'Actualizar', onclick: refrescar }),
+                el('button', { type: 'button', class: 'ok', text: 'Cerrar', onclick: function () { dlg.close(); } })));
+            dlg.addEventListener('close', function () { dlg.remove(); });
+            document.body.append(dlg); dlg.showModal(); refrescar();
         }
 
         // ---- Eventos globales ----
         btnSesion.addEventListener('click', function () {
-            if (estado.miembro && !estado.dueno) { estado.miembro = false; estado.pidiendoClave = false; if (seccionActual().privada) estado.seccionId = estado.cont.secciones[0].id; }
-            else if (!estado.miembro) estado.pidiendoClave = true;
-            dibujar();
+            if (estado.usuario) pedirCerrarSesion();
+            else { estado.pidiendoClave = true; dibujar(); }
         });
 
         var contraste = leerLS(LS_CONTRASTE) === true;
@@ -767,18 +865,8 @@
             escribirLS(LS_CONTRASTE, contraste);
         });
 
-        // Entrada al modo dueño: Ctrl+Alt+A, o 5 toques rápidos sobre "COMUNIDAD"
-        document.addEventListener('keydown', function (e) {
-            if (e.ctrlKey && e.altKey && e.code === 'KeyA') { e.preventDefault(); entrarDueno(); }
-        });
-        var clics = 0, temporizador;
-        document.getElementById('logo').addEventListener('click', function () {
-            clearTimeout(temporizador);
-            if (++clics >= 5) { clics = 0; entrarDueno(); return; }
-            temporizador = setTimeout(function () { clics = 0; }, 1500);
-        });
-
         dibujar();
+        if (leerLS(LS_SESION)) asegurarEscucha();
     })();
     </script>
 
